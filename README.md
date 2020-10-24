@@ -34,19 +34,19 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 
 * Setup and Configure Docker locally:
   Install docker and complete the Dockerfile. 
-  Run `make lint` and `hadolint Dockerfile`
+  Run `make lint` and `hadolint Dockerfile`.
 * Create Flask app in Container: 
   Build the docker image, list docker images created and run the containerized Flask app by calling script: `./run_docker.sh`. 
-  Make a prediction: Open a separate tab and call script: `./make_prediction.sh`
+  Make a prediction: Open a separate tab and call script: `./make_prediction.sh`.
 * Setup and Configure Kubernetes locally:
-  Install kubectl and minikube
-  Start minikube: `minikube start`
-  Verify cluster:  `kubectl config view`
+  Install kubectl and minikube. 
+  Start minikube: `minikube start`. 
+  Verify cluster:  `kubectl config view`.
 * Run via kubectl:
-  Run the containerized application by calling script: `./run_kubernetes.sh`
-  (Check pod status by executing `kubectl get pod` and rerun run_kubernetes.sh script when status changes from `ContainerCreating` to `Running`)
-  Make a prediction: Open a separate tab and call script: `./make_prediction.sh`
-* Delete the Kubernetes cluster: `minikube delete`  (Or pause by running `minikube stop`) 
+  Run the containerized application by calling script: `./run_kubernetes.sh`.
+  (Check pod status by executing `kubectl get pod` and rerun run_kubernetes.sh script when status changes from `ContainerCreating` to `Running`).
+  Make a prediction: Open a separate tab and call script: `./make_prediction.sh`.
+* Delete the Kubernetes cluster: `minikube delete`  (Or pause by running `minikube stop`). 
 
 
 ### Description of the files used in this project
