@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# This tags and uploads an image to Docker Hub
+# This is to run Docker Hub container with Kubernetes
 
 # Step 1:
 # This is your Docker ID/path
