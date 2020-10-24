@@ -33,10 +33,10 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 ### Docker & Kubernetes Steps
 
 * Setup and Configure Docker locally:
-  Install docker and complete the Dockerfile
+  Install docker and complete the Dockerfile. 
   Run `make lint` and `hadolint Dockerfile`
 * Create Flask app in Container: 
-  Build the docker image, list docker images created and run the containerized Flask app by calling script: `./run_docker.sh`
+  Build the docker image, list docker images created and run the containerized Flask app by calling script: `./run_docker.sh`. 
   Make a prediction: Open a separate tab and call script: `./make_prediction.sh`
 * Setup and Configure Kubernetes locally:
   Install kubectl and minikube
@@ -50,14 +50,14 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 
 
 ### Description of the files used in this project
-app.py - This is the Python flask app to serve out predictions about Boston Housing prices through API calls
-/model_data - This has model data for Boston Housing Price Prediction
-requirements.txt - This includes all the package names with versions to be installed
-Makefile - This includes commands to set-up virtual environment, installing dependencies mentioned in requirement.txt and linting
-Dockerfile - This includes commands to build the docker image
-make_prediction.sh - This script sends request to the python flask App to get the Boston Housing Price Prediction
-run_docker.sh - This includes commands to build a docker image, list the docker images, and run the container
-upload_docker.sh : This includes commands to define dockerpath, authenticate and tag image and push the docker image to the docker path (in the docker hub)
-run_kubernetes.sh : This includes commands to run the deployed docker image in a kubernetes cluster
-/output_txt_files - Log of Output
-/.circleci/config.yml - This is Circleci configuration (yaml) file for enabling Continous Integration pipeline
+* app.py - This is the Python flask app to serve out predictions about Boston Housing prices through API calls
+* /model_data - This has model data for Boston Housing Price Prediction
+* requirements.txt - This includes all the package names with versions to be installed
+* Makefile - This includes commands to set-up virtual environment, installing dependencies mentioned in requirement.txt and linting
+* Dockerfile - This includes commands to build the docker image
+* make_prediction.sh - This script sends request to the python flask App to get the Boston Housing Price Prediction
+* run_docker.sh - This includes commands to build a docker image, list the docker images, and run the container
+* upload_docker.sh : This includes commands to define dockerpath, authenticate and tag image and push the docker image to the docker path (in the docker hub)
+* run_kubernetes.sh : This includes commands to run the deployed docker image in a kubernetes cluster
+* /output_txt_files - Log of Output
+* /.circleci/config.yml - This is Circleci configuration (yaml) file for enabling Continous Integration pipeline
