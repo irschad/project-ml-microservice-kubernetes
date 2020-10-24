@@ -1,1 +1,7 @@
-<paste log output from Kubernetes-mediated prediction, here>
+(.devops) ec2-user:~/environment/project-ml-microservice-kubernetes (main) $ ./run_kubernetes.sh
+Error from server (AlreadyExists): pods "mlpredict" already exists
+NAME        READY   STATUS    RESTARTS   AGE
+mlpredict   1/1     Running   0          23m
+Forwarding from 127.0.0.1:8080 -> 80
+Forwarding from [::1]:8080 -> 80
+Handling connection for 8080
